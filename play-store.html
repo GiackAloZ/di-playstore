@@ -13118,7 +13118,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13195,7 +13195,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[1]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13227,7 +13227,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">apps_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/GiackAloZ/di-playstore/master/data/googleplaystore.csv&quot;</span><span class="p">)</span>
@@ -13256,7 +13256,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[2]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13401,7 +13401,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">apps_data</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -13417,7 +13417,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13476,7 +13476,7 @@ Name: Category, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">wrong_data</span> <span class="o">=</span> <span class="n">apps_data</span><span class="p">[</span><span class="n">apps_data</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;1.9&quot;</span><span class="p">]</span>
@@ -13493,7 +13493,7 @@ Name: Category, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13569,7 +13569,7 @@ Name: Category, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">apps_data</span> <span class="o">=</span> <span class="n">apps_data</span><span class="p">[</span><span class="o">~</span><span class="n">apps_data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">wrong_data</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -13597,7 +13597,7 @@ Name: Category, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">apps_data</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">()</span>
@@ -13613,7 +13613,7 @@ Name: Category, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13645,7 +13645,7 @@ Name: Category, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -13662,7 +13662,7 @@ Name: Category, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13711,7 +13711,7 @@ Questo potrebbe causare problemi in fase di addestramento, siccome le classi son
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">apps_data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">])</span>
@@ -13724,7 +13724,7 @@ Questo potrebbe causare problemi in fase di addestramento, siccome le classi son
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">wc</span> <span class="o">=</span> <span class="n">wordcloud</span><span class="o">.</span><span class="n">WordCloud</span><span class="p">(</span>
@@ -13740,7 +13740,7 @@ Questo potrebbe causare problemi in fase di addestramento, siccome le classi son
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -13757,7 +13757,7 @@ Questo potrebbe causare problemi in fase di addestramento, siccome le classi son
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13813,7 +13813,7 @@ Per farlo, raggruppiamo il dataset per categoria e concateniamo i nomi delle app
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">names_category</span> <span class="o">=</span> <span class="n">apps_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Category&quot;</span><span class="p">)[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">)</span>
@@ -13830,7 +13830,7 @@ Per farlo, raggruppiamo il dataset per categoria e concateniamo i nomi delle app
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13861,7 +13861,7 @@ Name: App, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect</span> <span class="o">=</span> <span class="n">CountVectorizer</span><span class="p">()</span>
@@ -13879,7 +13879,7 @@ Name: App, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -13904,7 +13904,7 @@ Name: App, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">most_k_freq</span><span class="p">(</span><span class="n">cat_freqs</span><span class="p">,</span> <span class="n">vect</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
@@ -13930,7 +13930,7 @@ Ogni elemento della lista <code>top_words</code> e' una tupla con (<code>word</c
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mi">5</span>
@@ -13972,7 +13972,7 @@ Per farlo, dobbiamo prima <em>flattare</em> la lista di liste di tuple <code>top
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_words_flatten</span> <span class="o">=</span> <span class="p">[[</span><span class="n">x</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">cat</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">y</span><span class="p">]</span> <span class="k">for</span> <span class="n">cat</span> <span class="ow">in</span> <span class="n">top_words</span><span class="p">]</span>
@@ -14000,7 +14000,7 @@ Per farlo, dobbiamo prima <em>flattare</em> la lista di liste di tuple <code>top
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14155,7 +14155,7 @@ Per farlo, dobbiamo prima <em>flattare</em> la lista di liste di tuple <code>top
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_words_df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -14171,7 +14171,7 @@ Per farlo, dobbiamo prima <em>flattare</em> la lista di liste di tuple <code>top
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14307,7 +14307,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
@@ -14349,7 +14349,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect_min_2</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
@@ -14392,7 +14392,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tokens_no_stopwords_alpha</span><span class="p">(</span><span class="n">texts</span><span class="p">):</span>
@@ -14410,7 +14410,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tokenizer_stem</span><span class="p">(</span><span class="n">app_names</span><span class="p">):</span>
@@ -14429,7 +14429,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tokenizer_lemm</span><span class="p">(</span><span class="n">app_names</span><span class="p">):</span>
@@ -14448,7 +14448,7 @@ Quindi, abbiamo una certa correlazione tra categoria della app e nome di essa.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect_stem</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">tokenizer</span><span class="o">=</span><span class="n">tokenizer_stem</span><span class="p">)</span>
@@ -14495,7 +14495,7 @@ Number of tokens (lem): 3114
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">token_lengths</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">len</span><span class="p">,</span> <span class="n">vect_min_2</span><span class="o">.</span><span class="n">get_feature_names</span><span class="p">()))</span>
@@ -14572,7 +14572,7 @@ Mean length with stemming: 5.34
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">apps_data</span><span class="p">[</span><span class="s2">&quot;App&quot;</span><span class="p">]</span>
@@ -14639,7 +14639,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores</span> <span class="o">=</span> <span class="p">{}</span>
@@ -14660,7 +14660,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_perceptron</span> <span class="o">=</span> <span class="p">{</span>
@@ -14719,7 +14719,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14736,7 +14736,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params</span><span class="p">[</span><span class="s2">&quot;perceptron&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_perceptron</span><span class="o">.</span><span class="n">best_params_</span>
@@ -14753,7 +14753,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14777,7 +14777,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_logistic</span> <span class="o">=</span> <span class="p">[</span>
@@ -14837,7 +14837,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14854,7 +14854,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params</span><span class="p">[</span><span class="s2">&quot;logreg&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_logistic</span><span class="o">.</span><span class="n">best_params_</span>
@@ -14871,7 +14871,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14895,7 +14895,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_svc</span> <span class="o">=</span> <span class="p">[</span>
@@ -14967,7 +14967,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[34]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14984,7 +14984,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params</span><span class="p">[</span><span class="s2">&quot;svc&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_svc</span><span class="o">.</span><span class="n">best_params_</span>
@@ -15001,7 +15001,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15025,7 +15025,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_mlp</span> <span class="o">=</span> <span class="p">{</span>
@@ -15805,7 +15805,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[39]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15822,7 +15822,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params</span><span class="p">[</span><span class="s2">&quot;mlp&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_mlp</span><span class="o">.</span><span class="n">best_params_</span>
@@ -15839,7 +15839,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15864,7 +15864,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">KerasModel</span><span class="p">(</span><span class="n">BaseEstimator</span><span class="p">,</span> <span class="n">ClassifierMixin</span><span class="p">):</span>
@@ -15918,7 +15918,7 @@ Vengono anche stampati gli iperparametri che hanno avuto un'accuratezza media mi
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_keras</span> <span class="o">=</span> <span class="p">{</span>
@@ -16079,7 +16079,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[37]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16096,7 +16096,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params</span><span class="p">[</span><span class="s2">&quot;keras&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_keras</span><span class="o">.</span><span class="n">best_params_</span>
@@ -16113,7 +16113,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[38]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16138,7 +16138,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="n">score</span><span class="p">]</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">scores</span><span class="o">.</span><span class="n">items</span><span class="p">()],</span> <span class="n">index</span><span class="o">=</span><span class="n">scores</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;accuracy&quot;</span><span class="p">])</span>
@@ -16155,7 +16155,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16224,7 +16224,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Fine-tuning-dei-migliori-due-modelli">Fine tuning dei migliori due modelli<a class="anchor-link" href="#Fine-tuning-dei-migliori-due-modelli">&#182;</a></h3><p>Andiamo ora a fare un po' di <em>fine tuning</em> dei due modelli migliori. Proviamo stemming e lemmatizzazione, inoltre introduciamo anche la possibilita' di considerare <em>n-grammi</em> di lunghezza due per il calcolo del TF-IDF.</p>
+<h3 id="Fine-tuning-dei-migliori-due-modelli">Fine tuning dei migliori due modelli<a class="anchor-link" href="#Fine-tuning-dei-migliori-due-modelli">&#182;</a></h3><p>Andiamo ora a fare un po' di <em>fine tuning</em> dei due modelli migliori. Proviamo stemming e lemmatizzazione, inoltre introduciamo anche la possibilita' di considerare <em>n-grammi</em> di lunghezza due o tre per il calcolo del TF-IDF.</p>
 <p>Vediamo i risultati della cross validation di entrambi.</p>
 
 </div>
@@ -16232,7 +16232,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">search_logistic</span><span class="o">.</span><span class="n">cv_results_</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">&quot;mean_test_score&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -16248,7 +16248,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[42]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16374,7 +16374,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">search_svc</span><span class="o">.</span><span class="n">cv_results_</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">&quot;mean_test_score&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -16390,7 +16390,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[43]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16547,7 +16547,7 @@ Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model doe
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Per la <code>LogisticRegression</code> usiamo sempre la regolarizzazione <em>ridge</em> (l2) che, insieme a <em>elasticnet</em> , sembra dare i migliori risultati, ma a differenza di <em>elasticnet</em> e' piu' veloce nel training.
+<p>Per la <code>LogisticRegression</code> usiamo sempre la regolarizzazione <em>ridge</em> (l2) che sembra dare i migliori risultati.
 Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.</p>
 
 </div>
@@ -16555,7 +16555,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores_ft</span> <span class="o">=</span> <span class="p">{}</span>
@@ -16569,7 +16569,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_logistic</span> <span class="o">=</span> <span class="p">{</span>
@@ -16629,7 +16629,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[45]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16646,7 +16646,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params_ft</span><span class="p">[</span><span class="s2">&quot;logreg&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_logistic</span><span class="o">.</span><span class="n">best_params_</span>
@@ -16663,7 +16663,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16682,7 +16682,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">param_svc</span> <span class="o">=</span> <span class="p">{</span>
@@ -16741,7 +16741,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16758,7 +16758,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_params_ft</span><span class="p">[</span><span class="s2">&quot;svc&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">search_svc</span><span class="o">.</span><span class="n">best_params_</span>
@@ -16775,7 +16775,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[50]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16801,7 +16801,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores_ft_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="n">score</span><span class="p">]</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">scores_ft</span><span class="o">.</span><span class="n">items</span><span class="p">()],</span> <span class="n">index</span><span class="o">=</span><span class="n">scores_ft</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;accuracy&quot;</span><span class="p">])</span>
@@ -16818,7 +16818,7 @@ Per il <code>SVC</code> usiamo il kernel <code>rbf</code> per lo stesso motivo.<
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[51]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -16877,7 +16877,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_logistic</span> <span class="o">=</span> <span class="n">search_logistic</span><span class="o">.</span><span class="n">best_estimator_</span>
@@ -16898,7 +16898,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[52]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17440,6 +17440,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Notiamo anche che ci sono lingue differenti dall'inglese nel dataset.</p>
 <p>Vediamo, ad esempio, i coefficenti delle parole "calculator" e "flashlight" rispettivamente nelle classi "PRODUCTIVITY" e "GAME"</p>
 
 </div>
@@ -17447,7 +17448,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">coeffs_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;PRODUCTIVITY&quot;</span><span class="p">,</span> <span class="s2">&quot;calculator&quot;</span><span class="p">]</span>
@@ -17463,7 +17464,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[53]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17480,7 +17481,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">coeffs_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;GAME&quot;</span><span class="p">,</span> <span class="s2">&quot;flashlight&quot;</span><span class="p">]</span>
@@ -17496,7 +17497,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[54]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17530,7 +17531,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_coeffs_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">coeffs_df</span><span class="o">.</span><span class="n">idxmax</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">coeffs_df</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -17548,7 +17549,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[55]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17762,7 +17763,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">model_logistic</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -17781,7 +17782,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[56]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17821,7 +17822,7 @@ Creiamo un dataframe che metta in relazione le classi con i coefficenti delle pa
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">))</span>
@@ -17899,7 +17900,7 @@ MAPS_AND_NAVIGATION       0.58      0.50      0.54        14
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">logistic_report_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">output_dict</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span><span class="o">.</span><span class="n">T</span>
@@ -17916,7 +17917,7 @@ MAPS_AND_NAVIGATION       0.58      0.50      0.54        14
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[58]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17937,7 +17938,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">logistic_report_df</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
@@ -17953,7 +17954,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[59]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -17982,7 +17983,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calc_acc_prec_rec_f1</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">):</span>
@@ -18005,7 +18006,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">searchs</span> <span class="o">=</span> <span class="p">[</span>
@@ -18050,7 +18051,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[62]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18136,7 +18137,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">confidence</span><span class="p">(</span><span class="n">acc</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">Z</span><span class="p">):</span>
@@ -18155,7 +18156,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ranges</span> <span class="o">=</span> <span class="n">model_metrics_df</span><span class="p">[</span><span class="s2">&quot;accuracy&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">acc</span><span class="p">:</span> <span class="n">confidence</span><span class="p">(</span><span class="n">acc</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_test</span><span class="p">),</span> <span class="mf">1.96</span><span class="p">))</span>   <span class="c1"># Z=1.96 e&#39; per la confidenza al 95%</span>
@@ -18174,7 +18175,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[64]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18272,7 +18273,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -18287,7 +18288,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">compare_confidence</span><span class="p">(</span><span class="n">acc1</span><span class="p">,</span> <span class="n">acc2</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">Z</span><span class="p">):</span>
@@ -18305,7 +18306,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_confidence</span><span class="p">(</span>
@@ -18324,7 +18325,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[67]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18360,7 +18361,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">predict_one</span><span class="p">(</span><span class="n">app_name</span><span class="p">):</span>
@@ -18374,7 +18375,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;A beautifil app for make up&quot;</span><span class="p">)</span>
@@ -18390,7 +18391,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[69]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18407,7 +18408,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;My flashlight pro&quot;</span><span class="p">)</span>
@@ -18423,7 +18424,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[70]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18440,7 +18441,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Clash of clans&quot;</span><span class="p">)</span>
@@ -18456,7 +18457,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[71]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18473,7 +18474,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Instagram 2.0&quot;</span><span class="p">)</span>
@@ -18489,7 +18490,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[72]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18506,7 +18507,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;App for browsing Reddit&quot;</span><span class="p">)</span>
@@ -18522,7 +18523,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[73]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18539,7 +18540,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Pro pic camera&quot;</span><span class="p">)</span>
@@ -18555,7 +18556,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[74]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18572,7 +18573,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Stock selling and trading&quot;</span><span class="p">)</span>
@@ -18588,7 +18589,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[75]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18605,7 +18606,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Internet speed test - faster internet in one click&quot;</span><span class="p">)</span>
@@ -18621,7 +18622,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[76]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18638,7 +18639,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Google Docs&quot;</span><span class="p">)</span>
@@ -18654,7 +18655,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[77]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -18671,7 +18672,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predict_one</span><span class="p">(</span><span class="s2">&quot;Subito.it buy, sell and save money&quot;</span><span class="p">)</span>
@@ -18687,7 +18688,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[78]:</div>
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
